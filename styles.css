@@ -1,0 +1,16 @@
+.container {
+  display: grid;
+  grid-template: 100px 100px 100px / 100px 100px 100px;
+  gap: 5px;
+}
+
+.cell {
+  background-color: gold;
+  border: 2px solid silver;
+  transition: 0.37s all;
+}
+
+.cell:hover {
+  background-color: goldenrod;
+  border: 2px solid grey;
+}
